@@ -1,0 +1,333 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background:url(images/bg.jpg) top left no-repeat #FFF;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	}
+	
+
+#container{
+	width:1024px;
+	margin:0 auto;
+	background:url(images/whitebg.gif) repeat-y;
+	
+}
+		
+
+/*上方導覽列*/
+.logo{
+	
+	width:297px;
+	padding-left:22px;
+	
+}
+.menu{
+	padding-top:30px;
+	}
+
+.menu a{
+	font-size:14px;
+	font-weight:bold;
+	color:#003366;
+	text-decoration:none;
+}
+
+.menu a:hover{
+	font-size:14px;
+	font-weight:bold;
+	color:#006699;
+	text-decoration:none;
+}
+		
+/*上方banner*/
+.header{
+	
+	width:980px;
+	padding-left:22px;
+	
+}
+
+
+/*中間區塊*/
+
+
+.news{
+	width:228px;
+	float:left;
+	padding:20px 0 20px 22px;
+	
+	}
+.news a{
+    font-size:12px;
+	color:#666;
+	text-decoration:none;
+	}
+.news a:hover{
+    font-size:12px;
+	color:#999;
+	text-decoration:none;
+	}
+	
+	
+.link{
+	width:228px;
+	padding:20px 0 20px 20px;
+	float:left;
+	
+	}
+.link a{
+    font-size:12px;
+	color:#666;
+	text-decoration:none;
+	}
+.link a:hover{
+    font-size:12px;
+	color:#999;
+	text-decoration:none;
+	}
+	
+
+.link02{
+	width:228px;
+	padding-top:10px;
+}
+.link02 a{
+    font-size:12px;
+	color:#666;
+	text-decoration:none;
+	}
+.link02 a:hover{
+    font-size:12px;
+	color:#999;
+	text-decoration:none;
+	}	
+	
+	
+.hotsale{
+		float:right;
+		padding:25px 22px 20px 10px;
+		height:199px;
+		}
+
+/*首頁商品標題字*/
+.hotsale-02{
+	font-size:13px;
+	color:#000000;
+	font-weight:bold;
+	padding:3px 0;
+}
+
+.hotsale-02 a{
+	font-size:13px;
+	color:#000;
+	font-weight:bold;
+	text-decoration:none;
+}
+	
+.hotsale-02 a:hover{
+	font-size:13px;
+	color:#666;
+	text-decoration:none;
+}
+
+
+.order{
+	background:url(images/companybg.jpg) no-repeat;
+	width:228px;
+	height:120px;
+	margin-top:10px;
+		
+}
+
+.orderfont01{
+	padding:10px 0 0 10px;
+	font-size:13px;
+	color:#F60;
+	font-weight:bold;
+	
+	
+}
+
+.orderfont02{
+	padding:0 0 0 10px;
+	font-size:12px;
+	color:#666;
+	line-height:130%;
+}
+
+
+
+.content{
+	width:725px;
+	float:right;
+	padding:25px 22px 20px 0;
+}
+.dmcontent{
+	width:980px;
+	float:right;
+	padding:2px 22px 20px 0;
+}
+.content00{
+	
+	width:155px;
+	
+}
+
+.content00 a{
+	font-size:15px;
+	color:#000;
+	line-height:150%;
+	font-weight:bold;
+	text-decoration:none;
+	}
+	
+.content00 a:hover{
+	font-size:15px;
+	color:#666;
+	line-height:150%;
+	font-weight:bold;
+	text-decoration:none;
+	}
+		
+
+
+
+.content01{
+	font-size:12px;
+	width:155px;
+	color:#666666;
+	height:70px;
+	line-height:150%;
+}
+.content02{
+	color:#000000;
+	font-size:11px;
+}
+.content03{
+	color:#F00;
+	font-size:15px;
+	font-weight:bold;
+}
+.content04 a{
+	color:#3399FF;
+	font-size:13px;
+	text-decoration:underline;
+	margin-left:20px;
+}
+.content04 a:hover{
+	color:#3399FF;
+	font-size:15px;
+	text-decoration:underline;
+	margin-left:20px;
+}
+
+/*共用版右邊:公司簡介、訂購需知…等*/
+.textframe{
+	background:#FFFFFF;
+	padding:20px;
+}
+.textfont00{
+	font-size:15px;
+	color:#F60;
+	font-weight:bold;
+	line-height:200%;
+}
+.textfont01{
+	font-size:13px;
+	color:#666666;
+	line-height:120%;
+}
+.textfont02{
+    font-size:15px;
+	color:#369;
+	font-weight:bold;
+	line-height:120%;
+}
+
+
+/*商品內頁大圖語法*/
+.imgborder{
+	border:#CCCCCC 1px solid;
+}
+
+
+/*尾部*/
+.footer{
+	clear:both;
+	padding:10px 0 0 22px;
+	
+	
+	
+	
+	
+}
+.footer01{
+	background:url(images/footerbg.jpg) no-repeat;
+	text-align:center;
+	font-size:11px;
+	color:#666;
+	line-height:130%;
+	width:980px;
+	height:66px;
+	padding-top:10px;
+	
+}
+.fpointer a:hover{
+    font-size:12px;
+	color:#999;
+	text-decoration:none;
+	}	
+
+.orheader {
+	font-size: 12px;
+	line-height: 16px;
+	border: 1px solid #0066FF;
+	background-color: #0066FF;
+	color: #FFFFFF;
+
+
+}
+.orend {
+	font-size: 12px;
+	line-height: 16px;
+}
+.oritem {
+	font-size: 12px;
+	line-height: 16px;
+	background-color: #B5DAFF;
+}
+.orboder {
+	font-size: 12px;
+	line-height: 16px;
+	border: 1px solid #0066FF;
+}
+.rmsgboder {
+	border: 1px solid #A6CAFF;
+}
+.dmheader {
+	font-size: 12px;
+	line-height: 16px;
+	border: thin solid #CCCCCC;
+}
+.dmitem {
+	font-size: 12px;
+	line-height: 16px;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #CCCCCC;
+	border-right-color: #CCCCCC;
+	border-bottom-color: #CCCCCC;
+	border-left-color: #CCCCCC;
+}
+.dmfont {
+	font-size: 12px;
+	line-height: 16px;
+}
